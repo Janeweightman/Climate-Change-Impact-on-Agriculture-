@@ -45,11 +45,15 @@ There are very view observable trends in the data, including no trends regarding
 ## Dashboard Design
 The dashboard can be found [here](https://public.tableau.com/app/profile/jane.weightman/viz/climate-change-agriculture/MainStory?publish=yes).
 ### Formatting 
-* Tableau's story format was used to give an intuitive structure to the dashboard, with questions on each section of the story to add intrigue. 
+Tableau's story format was used to give an intuitive structure to the dashboard, with questions on each section of the story to add intrigue. The grey colour format was chosen to be easy on the eyes and not draw attention away from the data.
 ![Dashboard story format](images/storyboardformat.png)
-* As you can see the dashboard is split into 4 sections, answering 4 different questions.
+As you can see the dashboard is split into 4 sections, answering 4 different questions.
 
 ### Dashboard page 1: 
+![Page 1 Dashboard](images/Page1dashboard.png)
+The first page of the dahsboard answer the question whether soil health has an economic impact. The figure is scatter plot with an added trend line. 
+We have added the option to filter by both country and crop type using tick boxes on the right hand side.
+
 
 
 * Later, during the project development, you may revisit your dashboard plan to update a given feature (for example, at the beginning of the project you were confident you would use a given plot to display an insight but subsequently you used another plot type).
