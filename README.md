@@ -68,6 +68,13 @@ Page 3 seeks to answer 2 questions; the first one being whether different adapta
 Page 4 of the dashboard examines CO2 Emissions and temperature over time, it uses a dual axis line chat with corresponding trend lines. The lines are colour codes with a legend and the chart features filters for country and crop type. 
 * **Please note that page 4 does feature a lot of white space beneath the diagram, this is an intentional trade off between aesthetics and functionality as that white space does become occupied if you change the filters.** 
 ![changing the filters on dashboard](images/changingfilters.png)
+### How the dashboard communicates to technical and non-technical audiences.
+A good example of a feature that both informs the technical and non-technical audiences is the trend lines. For a non-technical audience the trend line gives a visual cue to identify trends in data, however for a technical audience it comes with a tooltip that tells you the R squared value and P-value.
+![trend line tooltip](images/tooltip.png)
+
+#### Filters enable further analysis and engagement through interactivity
+![Filters](images/filters.png)
+
 
 
 
