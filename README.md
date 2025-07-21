@@ -14,7 +14,7 @@
 
 
 ## Dataset Content
-* Describe your dataset. Choose a dataset of reasonable size to avoid exceeding the repository's maximum size of 100Gb.
+* The dataset was found on Kaggle and be found [here](https://www.kaggle.com/datasets/waqi786/climate-change-impact-on-agriculture). The dataset contains 10,000 rows and 15 columns. The dataset includes allows for a wide scope of inquiry, including variables on crop yield, CO2 emissions, extreme weather events and more. 
 
 
 ## Business Requirements
