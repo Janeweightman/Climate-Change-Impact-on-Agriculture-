@@ -25,6 +25,7 @@
 * List here your project hypothesis(es) and how you envision validating it (them) 
 
 ## Project Plan
+To help plan we used a github project planning board which can be found [here](https://github.com/users/Janeweightman/projects/5).
 * Outline the high-level steps taken for the analysis.
 * How was the data managed throughout the collection, processing, analysis and interpretation steps?
 * Why did you choose the research methodologies you used?
