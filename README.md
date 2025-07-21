@@ -54,6 +54,9 @@ As you can see the dashboard is split into 4 sections, answering 4 different que
 The first page of the dahsboard answer the question whether soil health has an economic impact. The figure is scatter plot with an added trend line. 
 We have added the option to filter by both country and crop type using tick boxes on the right hand side.
 
+### Dashboard page 2:
+![Page 2 Dashboard](images/page2dashboard.png) 
+Page 2 answers the question of whether greater crop yields result in an economic boom. The graph is a scatter plot with a trend line, allowing the viewer to see the trend clearly. We have added the option to filter by Crop Type, as well as Year in the form of a slider that allows the user to specify a specific time period for example 2014-200.
 
 
 * Later, during the project development, you may revisit your dashboard plan to update a given feature (for example, at the beginning of the project you were confident you would use a given plot to display an insight but subsequently you used another plot type).
