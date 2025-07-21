@@ -1,6 +1,6 @@
 # Impact of Climate Change on Agriculture
 
-**Impact of Climate Change on Agriculture** is a project that seeks to give data driven insights to farmers to adapt to the on going climate crisis. 
+**Impact of Climate Change on Agriculture** is a project that seeks to deliver data driven insights to farmers adapting to the ongoing climate crisis.
 
 # ![Banner Image](images/agriculture-climate-banner.jpg)
 
