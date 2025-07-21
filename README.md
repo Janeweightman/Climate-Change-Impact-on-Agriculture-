@@ -40,10 +40,18 @@
 
 ## Ethical considerations
 No private data is in this dataset, however there are still ethical considerations. 
-There are very view observable trends in the data, including no trends regarding anthropogenic causes of climate change. Readers should not interpret the results of this study to engage in climate denialism, the data is completely synthetic and does not reflect the very real dangers of climate change.
+There are very view observable trends in the data, including no trends regarding anthropogenic causes of climate change. Readers should not interpret the results of this study to engage in climate change denialism, the data is completely synthetic and does not reflect the very real dangers of climate change.
 
 ## Dashboard Design
-* List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other item that your dashboard library supports.
+The dashboard can be found [here](https://public.tableau.com/app/profile/jane.weightman/viz/climate-change-agriculture/MainStory?publish=yes).
+### Formatting 
+* Tableau's story format was used to give an intuitive structure to the dashboard, with questions on each section of the story to add intrigue. 
+![Dashboard story format](images/storyboardformat.png)
+* As you can see the dashboard is split into 4 sections, answering 4 different questions.
+
+### Dashboard page 1: 
+
+
 * Later, during the project development, you may revisit your dashboard plan to update a given feature (for example, at the beginning of the project you were confident you would use a given plot to display an insight but subsequently you used another plot type).
 * How were data insights communicated to technical and non-technical audiences?
 * Explain how the dashboard was designed to communicate complex data insights to different audiences. 
