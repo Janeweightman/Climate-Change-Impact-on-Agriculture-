@@ -77,8 +77,16 @@ A good example of a feature that both informs the technical and non-technical au
 #### Filters enable further analysis and engagement through interactivity
 ![Filters](images/filters.png)
 
+### Adding Median to dashboard page 2
+We decided to add more useful information regarding the median values of crop yields and economic impact to the dashboard. We caculated this using median lines in the graph. We use median rather than mean as we know they are no normally distributed.
 
+![Median Crop Yield](images/mediancropyield.png)
 
+![Median Economic Impact](images/medianeconomicimpact.png)
+
+This did not look aesthetically pleasing, so we took the calculations, removed the lines and added a text box to the story. 
+
+![Median Text Box](images/mediantextbox.png)
 
 
 * Later, during the project development, you may revisit your dashboard plan to update a given feature (for example, at the beginning of the project you were confident you would use a given plot to display an insight but subsequently you used another plot type).
