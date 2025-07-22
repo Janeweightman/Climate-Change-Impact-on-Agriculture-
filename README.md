@@ -110,6 +110,17 @@ The CO2 Emissions have a non normal uniform distribution, making it suitable for
 
 Temperature is not normally distributed and has a uniform distribution, sugessting non parametric tests would be suitable. 
 
+#### Spearman Rank Correlation
+![H5 Spearman](images/h5spearman.png)
+
+With a Spearman correlation of 0.004 and p-value of 0.719 we can reject the alternative hypothesis. 
+
+#### Graphing H5 over time
+The link between these factors might be more apparent if we plot them across time.
+
+![H5 Graph](images/h5graph.png)
+From the graph we can see that there might be some link between the two variables although further analysis would be necessary to be sure. 
+
 
 ## Project Plan
 To help plan we used a github project planning board which can be found [here](https://github.com/users/Janeweightman/projects/5).
