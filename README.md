@@ -70,6 +70,19 @@ The above figure is from this [article](https://miro.medium.com/v2/resize:fit:72
 
 We consulted with co-pilot to explain the results to help us tell a story with this ML model. The R squared score means that 46.7% of economic impact can be explained by crop yield alone, which means it's a very significant factor, although less significant than the Tableau linear regression displayed earlier. The RMSE (Root Mean Squared Error) value means that on average the model is $295 million dollars off the actual values. This model is helpful as it shows us how impactful crop yields are to economic growth, furthermore a model like this one or similar could be used to make forecasts for future economic growth.
 
+### H3: Different adaptation strategies have a more positive impact on crop yield
+* We pedict the adaptation strategy farmers choose have an impact on overall crop yield.
+#### Kruskal-Wallace H test
+Since adaptation stategy is a nominal variable Kuskall Wallace was chosen. 
+
+![h3 kruskal](images/h3kruskal.png)
+
+With H-statistic of 3.407 and p-value of of 0.492 we can determine that different adaptation strategies not not have significant impact on crop yields. We therefore have to accept the null hypothesis.
+
+#### Graphing H3:
+![graph h3](images/graphh3.png)
+
+As you can see there is very little difference between adaptation strategies, even no adaptation is more succesful than organic farming or water management. 
 
 
 
