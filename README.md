@@ -106,11 +106,18 @@ we added an explanation of the R-Squared value to page 2 of the dashboard for th
 * In previous projects we had issues with images not showing when put into a folder, this has been fixed during this project demonstrating growth. 
 * There have been a number of times when code did not run, this was fixed with a combination of rubberducking and debugging with Co-Pilot. 
 * A major issue was with the dataset itself, the data shows very little trends. When choosing the dataset we read the high usability score and assumed this wouldn't be an issue. In the future when choosing a Kaggle dataset we will make sure to look at the comments and previous projects to ensure you can tell a compelling story. 
+* We realised we are heavily reliant on generative AI for building machine learning models, in the future we plan to hone our skills in building ML pipelines with less assistance from AI.
  
 
 
 ## Main Data Analysis Libraries
-* Here you should list the libraries you used in the project and provide an example(s) of how you used these libraries.
+* **Pandas**: Pandas was used throughout the course as it allows the manipulation of data frames.
+* **Matplotlib**: Matplotlib was used to make EDA visualisations.
+* **Plotly**: Plotly was used to make EDA visualisations.
+* **Seaborn**: Seaborn was used to make EDA visualisations.
+* **SciPy** SciPy was used for statistical tests.
+* **Scikit-Learn** SkLearn was used for machine learning. 
+
 
 
 ## Credits 
