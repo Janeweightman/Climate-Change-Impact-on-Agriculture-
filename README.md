@@ -19,7 +19,9 @@
 
 
 ## Business Requirements
-* Describe your business requirements
+* The business goal of this project is to provide information to farmers, governments and policy makers on how they can best adapt to climate change 
+* This is a very important problem to address as according to Christine Li et al in [Nature](https://www.nature.com/articles/s41598-025-87047-y) countries in sub-Saharan Africa, North America, South Asia and Oceania could be at risk of failing to meet national calorie demands by the end of the centuary. 
+* We seek to identify trends in the data that can help farmers feed the planet and maximise their profit in a sustainable way. 
 
 
 ## Hypothesis and how to validate?
@@ -88,7 +90,7 @@ This did not look aesthetically pleasing, so we took the calculations, removed t
 
 ![Median Text Box](images/mediantextbox.png)
 
-### Adding explanation of R Squared to Dashboard
+### Adding explanation of R Squared to Dashboard page 2:
 we added an explanation of the R-Squared value to page 2 of the dashboard for the benefit of the non technical audience. 
 
 ![Textbox R-Squared](images/textboxrsquared.png)
