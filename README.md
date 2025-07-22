@@ -134,5 +134,7 @@ we added an explanation of the R-Squared value to page 2 of the dashboard for th
 - Random Forest diagram image can be found [here](https://miro.medium.com/v2/resize:fit:720/format:webp/1*ZFuMI_HrI3jt2Wlay73IUQ.png)
 
 
-## Acknowledgements (optional)
-* Thank the people who provided support through this project.
+## Acknowledgements
+* A special thanks to all the Tutors at Code Institute!
+* I would like to thank Kaori from my previous group project who I took inspiration from when building my dashboard.
+* A huge thank you to all  my classmates who provided good conversation and support throughout the course.
