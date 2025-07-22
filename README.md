@@ -102,8 +102,11 @@ we added an explanation of the R-Squared value to page 2 of the dashboard for th
 * If applicable, include evidence of feedback received (from peers or instructors) and how it improved your approach or understanding.
 
 ## Development Roadmap
-* What challenges did you face, and what strategies were used to overcome these challenges?
-* What new skills or tools do you plan to learn next based on your project experience? 
+* We had issues with converting year to date/time data type, we decided to keep it as a 64 bit integer, this caused no problems.
+* In previous projects we had issues with images not showing when put into a folder, this has been fixed during this project demonstrating growth. 
+* There have been a number of times when code did not run, this was fixed with a combination of rubberducking and debugging with Co-Pilot. 
+* A major issue was with the dataset itself, the data shows very little trends. When choosing the dataset we read the high usability score and assumed this wouldn't be an issue. In the future when choosing a Kaggle dataset we will make sure to look at the comments and previous projects to ensure you can tell a compelling story. 
+ 
 
 
 ## Main Data Analysis Libraries
