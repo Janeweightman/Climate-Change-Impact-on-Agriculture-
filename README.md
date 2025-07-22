@@ -24,8 +24,26 @@
 * We seek to identify trends in the data that can help farmers feed the planet and maximise their profit in a sustainable way. 
 
 
-## Hypothesis and how to validate?
-* List here your project hypothesis(es) and how you envision validating it (them) 
+## Hypothesis testing 
+### H1: Soil Health Drives Economic Productivity
+* We hypothesised that soil health would be a major driver behind economic productivity.
+* We first tested the distribution of the variables using density distribution plots to determine the appropriate statistical tests to apply. 
+#### Distribution for Soil Health:
+![soil health distribution](images/Soilhealthdensity.png)
+As you can see the distribution of soil health is not a normal distribution, and infact it has a distinctive uniform distribution, this means it is suitable for non parametric tests. 
+
+#### Distribution for Economic Impact: 
+![Economic Impact Distribution](image.png)
+
+As you can see the distribution is skewed towards lower values meaning it is also suitable for non parametric statistical tests. 
+#### Spearman Rank Correlation
+![H1 Spearman Rank](images/h1spearman.png)
+
+We conducted a Spearman Rank Correlation test, the results were decisive with correlation coefficient of -0.009 there is no monotonic relationship and with a P-Value of 0.410 the results were not statistically significant. Thus we have to reject our alternative hypothesis and accept the null hypothesis that soil health does not drive economic impact.
+
+#### Graphing H1: 
+![h1 graph](images/Page1dashboard.png)
+As you can see there is no correlation, however if you remember the distribution graphs from perviously you can see that pattern playing out in the above figure. Notice how the triangles become less dense on the axis but remain dense on the x axis, this is because soil health is a uniform distribution and economic impact is skewed towards lower values.
 
 ## Project Plan
 To help plan we used a github project planning board which can be found [here](https://github.com/users/Janeweightman/projects/5).
