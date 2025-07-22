@@ -82,9 +82,20 @@ With H-statistic of 3.407 and p-value of of 0.492 we can determine that differen
 #### Graphing H3:
 ![graph h3](images/graphh3.png)
 
-As you can see there is very little difference between adaptation strategies, even no adaptation is more succesful than organic farming or water management. 
+As you can see there is very little difference between adaptation strategies, even no adaptation is more successful than organic farming or water management. 
 
+### H4: different adaptation strategies have more positive impacts on the economy
 
+* We predict that some of the adaptation strategies farmers choose will have a more positive impact on the economy.
+
+#### Kruskal-Wallace H test:
+![h4 kruskall](images/h4kruskal.png)
+
+With an H-statistic of 5.760 and p-value of 0.218 there is no significant impact of adaptation strategies on economy. We there have to accept the null hypothesis. 
+
+#### Graphing H4: 
+![h4 graphing](images/h4graphing.png)
+This is a very similar graph to the previous hypothesis, demonstrating that adaptation strategy does not have an economic impact. 
 
 
 
