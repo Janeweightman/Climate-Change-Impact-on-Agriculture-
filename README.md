@@ -97,7 +97,18 @@ With an H-statistic of 5.760 and p-value of 0.218 there is no significant impact
 ![h4 graphing](images/h4graphing.png)
 This is a very similar graph to the previous hypothesis, demonstrating that adaptation strategy does not have an economic impact. 
 
+### H5: CO2 emissions are correlated with temperature
+One of the fundamentals of anthropogenic climate change is that man made CO2 emissions are causing a rise in global temperatures. 
+* First we need to see the distributions of the variables
+#### Distribution of CO2 Emissions
+![Density of CO2 Emissions](images/densityofco2.png)
+ 
+The CO2 Emissions have a non normal uniform distribution, making it suitable for non parametric tests 
 
+#### Distribution of Temperature 
+![Temp density](images/tempdensity.png)
+
+Temperature is not normally distributed and has a uniform distribution, sugessting non parametric tests would be suitable. 
 
 
 ## Project Plan
