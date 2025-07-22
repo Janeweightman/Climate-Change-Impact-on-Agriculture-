@@ -43,7 +43,38 @@ We conducted a Spearman Rank Correlation test, the results were decisive with co
 
 #### Graphing H1: 
 ![h1 graph](images/Page1dashboard.png)
-As you can see there is no correlation, however if you remember the distribution graphs from perviously you can see that pattern playing out in the above figure. Notice how the triangles become less dense on the axis but remain dense on the x axis, this is because soil health is a uniform distribution and economic impact is skewed towards lower values.
+As you can see there is no correlation, however if you remember the distribution graphs from perviously you can see that pattern playing out in the above figure. Notice how the triangles become less dense on the Y axis but remain dense on the X axis, this is because soil health is a uniform distribution and economic impact is skewed towards lower values.
+### H2: Crop Yields Boost Economic Growth
+* We predict that greater crop yields will result in an economic boom
+* First we need to check the distribution of crop yields using a density plot
+#### Distribution for Crop Yields
+![Density of crop yields](images/cropyielddistribution.png)
+
+Crop yields are not normally distributed making them suitable for non parametric tests.
+#### Spearman Rank Correlation
+![h2 spearman](images/h2spearman.png)
+
+With correlation coefficient of 0.735 and P-value well below 0.05 we can say there there is both a monotonic relationship and that it is highly stastistically significant. Thus we can accept our alternative hypothesis. 
+#### Graphing H2
+![h2graph](images/h2graph.png)
+
+As you can see there is a clear corrrelation and the R Squared value is 0.515 which means that this linear regression explains 51.5% of the economic impact. 
+#### Machine Learning model to test H2 
+* we used a random forest decision tree to test actual vs predictied values. The model can be found [here](https://github.com/Janeweightman/Climate-Change-Impact-on-Agriculture-/blob/main/jupyter_notebooks/machinelearning.ipynb).
+
+![Random Forest diagram](images/randomforest.webp)
+
+The above figure is from this [article](https://miro.medium.com/v2/resize:fit:720/format:webp/1*ZFuMI_HrI3jt2Wlay73IUQ.png).
+
+![ML results](images/mlresults.png)
+
+We consulted with co-pilot to explain the results to help us tell a story with this ML model. The R squared score means that 46.7% of economic impact can be explained by crop yield alone, which means it's a very significant factor, although less significant than the Tableau linear regression displayed earlier. The RMSE (Root Mean Squared Error) value means that on average the model is $295 million dollars off the actual values. This model is helpful as it shows us how impactful crop yields are to economic growth, furthermore a model like this one or similar could be used to make forecasts for future economic growth.
+
+
+
+
+
+
 
 ## Project Plan
 To help plan we used a github project planning board which can be found [here](https://github.com/users/Janeweightman/projects/5).
