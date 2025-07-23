@@ -165,7 +165,7 @@ There are very view observable trends in the data, including no trends regarding
 As you can see the dashboard is split into 4 sections, answering 4 different questions.
 
 ### Dashboard page 1: 
-![Page 1 Dashboard](images/page1dashboard.png)
+![page 1 dashboard](images/page1dashboard.png)
 **The first page** of the dahsboard answer the question whether soil health has an economic impact. The figure is scatter plot with an added trend line. 
 We have added the option to filter by both country and crop type using tick boxes on the right hand side.
 
