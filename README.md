@@ -29,7 +29,7 @@
 * We hypothesised that soil health would be a major driver behind economic productivity.
 * We first tested the distribution of the variables using density distribution plots to determine the appropriate statistical tests to apply. 
 #### Distribution for Soil Health:
-![soil health distribution](images/Soilhealthdensity.png)
+![soil health distribution](images/soilhealthdensity.png)
 
 As you can see the distribution of soil health is not a normal distribution, and infact it has a distinctive uniform distribution, this means it is suitable for non parametric tests. 
 
@@ -134,9 +134,8 @@ Within the tasks in the project plan we used tick boxes so we can tick off tasks
  ![tickboxes](images/tickboxes.png)
 
 * To ideate hypotheses we used a mixture of EDA, literature review and bouncing off ideas with Co-pilot. 
-* Outline the high-level steps taken for the analysis.
-* How was the data managed throughout the collection, processing, analysis and interpretation steps?
-* Why did you choose the research methodologies you used?
+* Data was collected from Kaggle, processed in jupyter notebook, analysed using statistical tests in python and intepreted using a mix of literature review and generative AI.
+
 
 ## The rationale to map the business requirements to the Data Visualisations
 * 1: The first visualisation is a scatter plot looking at soil health and economic impact, this meets the business requirements as one of the main goals of the project is for famers to find out how to maximise their profit sustainably. 
@@ -151,6 +150,7 @@ Within the tasks in the project plan we used tick boxes so we can tick off tasks
 * Generative AI specifically Co-pilot was used for hypothesis ideation, code debugging, code generation and storytelling. 
 * Scikit-Learn was used for machine learning as it's relatively easy to use library for machine learning tasks. 
 * Sci-py was used for statistical tests as it allows for a wide range of both parametric and non parametric tests. 
+* Git was used for version control.
 
 
 ## Ethical considerations
@@ -165,7 +165,7 @@ There are very view observable trends in the data, including no trends regarding
 As you can see the dashboard is split into 4 sections, answering 4 different questions.
 
 ### Dashboard page 1: 
-![Page 1 Dashboard](images/Page1dashboard.png)
+![Page 1 Dashboard](images/page1dashboard.png)
 **The first page** of the dahsboard answer the question whether soil health has an economic impact. The figure is scatter plot with an added trend line. 
 We have added the option to filter by both country and crop type using tick boxes on the right hand side.
 
