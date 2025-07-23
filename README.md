@@ -221,10 +221,17 @@ we added an explanation of the R-Squared value to page 2 of the dashboard for th
 
 ## Credits 
 
-* In this section, you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-* You can break the credits section up into Content and Media, depending on what you have included in your project. 
+### literature review resources:
+* Infomation on soil health from [yara](https://www.yara.co.uk/grow-the-future/sustainable-farming/soil-health/)
+* Information on the 2038 probem from [wikipedia](https://en.wikipedia.org/wiki/Year_2038_problem)
+* Information on the imporatance of climate change's impact on Agriculture from [Nature](https://www.nature.com/articles/s41598-025-87047-y) 
+* Information on Spearman Correlation from [Statstutor](https://www.statstutor.ac.uk/resources/uploaded/spearmans.pdf)
+* Information on Random Forest Regression from [Chaya from Level Up Coding](https://levelup.gitconnected.com/random-forest-regression-209c0f354c84)
 
-### Content 
+### General project resources
+* [Microsoft Co-Pilot](https://copilot.microsoft.com/chats/qxDMq9YFBmUafioNYmFnR) was used to aid in code generation, debugging, ideation, story telling and nagivating Tableau. 
+* Tutorials from [Tableau Tim](https://www.youtube.com/channel/UC7HYxRWmaNlJux-X7rNLZyw) were used while learning Tableau
+* [Code Institute LMS](https://learn.codeinstitute.net/dashboard) modules on Pandas, Numpy, Statistics,python visualisations, Tableau and machine learning were used throughout the project including code re-worked for data cleaning and python visualisations.
 
 
 ### Media
