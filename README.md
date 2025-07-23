@@ -139,7 +139,10 @@ Within the tasks in the project plan we used tick boxes so we can tick off tasks
 * Why did you choose the research methodologies you used?
 
 ## The rationale to map the business requirements to the Data Visualisations
-* List your business requirements and a rationale to map them to the Data Visualisations
+* 1: The first visualisation is a scatter plot looking at soil health and economic impact, this meets the business requirements as one of the main goals of the project is for famers to find out how to maximise their profit sustainably. 
+* 2: The second visulaisation is a scatterplot looking at economic impact of crop yield, this also tries demonstrate how to maximise profit. 
+* 3: The third and fourth visualisations are both bar charts that compare adapatation strategies against economic impact and crop yield. This allows farmers to make an informed business decision on what adaptation stategy to choose based on their economic return and crop yield. 
+* 4: The fifth visuaslisation is a line chart plotting CO2 and temperature across time.This meets the business requirements as farmers cand gain insight into the general trend of climate chang and how important it is to take action. 
 
 ## Analysis techniques used
 * Data cleaning in pandas using a Jupyter Notebook gave a structured modular approach that allows both data practioner and reader to follow each step.
@@ -227,7 +230,7 @@ we added an explanation of the R-Squared value to page 2 of the dashboard for th
 
 ### literature review resources:
 * Infomation on soil health from [yara](https://www.yara.co.uk/grow-the-future/sustainable-farming/soil-health/)
-* Information on the 2038 probem from [wikipedia](https://en.wikipedia.org/wiki/Year_2038_problem)
+* Information on the 2038 problem from [wikipedia](https://en.wikipedia.org/wiki/Year_2038_problem)
 * Information on the imporatance of climate change's impact on Agriculture from [Nature](https://www.nature.com/articles/s41598-025-87047-y) 
 * Information on Spearman Correlation from [Statstutor](https://www.statstutor.ac.uk/resources/uploaded/spearmans.pdf)
 * Information on Random Forest Regression from [Chaya from Level Up Coding](https://levelup.gitconnected.com/random-forest-regression-209c0f354c84)
