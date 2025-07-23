@@ -29,7 +29,7 @@
 * We hypothesised that soil health would be a major driver behind economic productivity.
 * We first tested the distribution of the variables using density distribution plots to determine the appropriate statistical tests to apply. 
 #### Distribution for Soil Health:
-![soil health distribution](images/soilhealthdensity.png)
+![soil health density](images/densityofsoilhealth.png)
 
 As you can see the distribution of soil health is not a normal distribution, and infact it has a distinctive uniform distribution, this means it is suitable for non parametric tests. 
 
@@ -165,7 +165,7 @@ There are very view observable trends in the data, including no trends regarding
 As you can see the dashboard is split into 4 sections, answering 4 different questions.
 
 ### Dashboard page 1: 
-![page 1 dashboard](images/page1dashboard.png)
+![page 1 dashboard](images/page1ofdashboard.png)
 **The first page** of the dahsboard answer the question whether soil health has an economic impact. The figure is scatter plot with an added trend line. 
 We have added the option to filter by both country and crop type using tick boxes on the right hand side.
 
