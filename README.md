@@ -158,29 +158,29 @@ No private data is in this dataset, however there are still ethical consideratio
 There are very view observable trends in the data, including no trends regarding anthropogenic causes of climate change. Readers should not interpret the results of this study to engage in climate change denialism, the data is completely synthetic and does not reflect the very real dangers of climate change.
 
 ## Dashboard Design
-The dashboard can be found [here](https://public.tableau.com/app/profile/jane.weightman/viz/climate-change-agriculture/MainStory?publish=yes).
+**The dashboard can be found [here](https://public.tableau.com/app/profile/jane.weightman/viz/climate-change-agriculture/MainStory?publish=yes)**.
 ### Formatting 
-Tableau's story format was used to give an intuitive structure to the dashboard, with questions on each section of the story to add intrigue. The grey colour format was chosen to be easy on the eyes and not draw attention away from the data.
+**Tableau's story format** was used to give an intuitive structure to the dashboard, with questions on each section of the story to add intrigue. The grey colour format was chosen to be easy on the eyes and not draw attention away from the data.
 ![Dashboard story format](images/storyboardformat.png)
 As you can see the dashboard is split into 4 sections, answering 4 different questions.
 
 ### Dashboard page 1: 
 ![Page 1 Dashboard](images/Page1dashboard.png)
-The first page of the dahsboard answer the question whether soil health has an economic impact. The figure is scatter plot with an added trend line. 
+**The first page** of the dahsboard answer the question whether soil health has an economic impact. The figure is scatter plot with an added trend line. 
 We have added the option to filter by both country and crop type using tick boxes on the right hand side.
 
 ### Dashboard page 2:
 ![Page 2 Dashboard](images/page2dashboard.png) 
-Page 2 answers the question of whether greater crop yields result in an economic boom. The graph is a scatter plot with a trend line, allowing the viewer to see the trend clearly. We have added the option to filter by Crop Type, as well as Year in the form of a slider that allows the user to specify a specific time period for example 2014-2020.
+**Page 2** answers the question of whether greater crop yields result in an economic boom. The graph is a scatter plot with a trend line, allowing the viewer to see the trend clearly. We have added the option to filter by Crop Type, as well as Year in the form of a slider that allows the user to specify a specific time period for example 2014-2020.
 
 
 ### Dashboard page 3:
 ![Page 3 Dashboard](images/page3dashboard.png)
-Page 3 seeks to answer 2 questions; the first one being whether different adaptation strategies effect crop yield and the second being whether different adaptation strategies have an economic impact. Both questions are answered with bar charts placed one on top of the other for easy comparison. The bar charts are sorted in ascending order and coloured according to adaption method, allowing the viewer to compare the differences between charts, for example the viewer can more easily see that 'Organic Farming' is better than 'Water Management' for crop yields in the first chart.  We have included options to filter by crop type and country on the right hand side, as well as a legend for the adaptation methods. 
+**Page 3** seeks to answer 2 questions; the first one being whether different adaptation strategies effect crop yield and the second being whether different adaptation strategies have an economic impact. Both questions are answered with bar charts placed one on top of the other for easy comparison. The bar charts are sorted in ascending order and coloured according to adaption method, allowing the viewer to compare the differences between charts, for example the viewer can more easily see that 'Organic Farming' is better than 'Water Management' for crop yields in the first chart.  We have included options to filter by crop type and country on the right hand side, as well as a legend for the adaptation methods. 
 
 ### Dashboard page 4: 
 ![Page 4 Dashboard](images/page4dashboard.png)
-Page 4 of the dashboard examines CO2 Emissions and temperature over time, it uses a dual axis line chat with corresponding trend lines. The lines are colour codes with a legend and the chart features filters for country and crop type. 
+**Page 4** of the dashboard examines CO2 Emissions and temperature over time, it uses a dual axis line chat with corresponding trend lines. The lines are colour codes with a legend and the chart features filters for country and crop type. 
 * **Please note that page 4 does feature a lot of white space beneath the diagram, this is an intentional trade off between aesthetics and functionality as that white space does become occupied if you change the filters.** 
 ![changing the filters on dashboard](images/changingfilters.png)
 ### How the dashboard communicates to technical and non-technical audiences.
