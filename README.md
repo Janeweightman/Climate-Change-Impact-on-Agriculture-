@@ -20,7 +20,7 @@
 
 ## Business Requirements
 * The business goal of this project is to provide information to farmers, governments and policy makers on how they can best adapt to climate change 
-* This is a very important problem to address as according to Christine Li et al in [Nature](https://www.nature.com/articles/s41598-025-87047-y) countries in sub-Saharan Africa, North America, South Asia and Oceania could be at risk of failing to meet national calorie demands by the end of the centuary. 
+* This is a very important problem to address as according to Christine Li et al in [Nature](https://www.nature.com/articles/s41598-025-87047-y) countries in sub-Saharan Africa, North America, South Asia and Oceania could be at risk of failing to meet national calorie demands by the end of the century. 
 * We seek to identify trends in the data that can help farmers feed the planet and maximise their profit in a sustainable way. 
 
 
