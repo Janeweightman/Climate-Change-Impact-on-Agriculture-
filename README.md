@@ -126,9 +126,14 @@ From the graph we can see that there might be some link between the two variable
 
 ## Project Plan
 
-To help plan we used a github project planning board which can be found [here](https://github.com/users/Janeweightman/projects/5). The project board gave a structured approach to planning that allowed us to identify the steps and the priority that we should give them. To ideate hypotheses we used a mixture of EDA, literature review and bouncing off ideas with Co-pilot. 
+To help plan we used a github project planning board which can be found [here](https://github.com/users/Janeweightman/projects/5). The project board gave a structured approach to planning that allowed us to identify the steps and the priority that we should give them.
 
 ![project plan](images/projectplan.png)
+
+Within the tasks in the project plan we used tick boxes so we can tick off tasks as we complete them. 
+ ![tickboxes](images/tickboxes.png)
+
+* To ideate hypotheses we used a mixture of EDA, literature review and bouncing off ideas with Co-pilot. 
 * Outline the high-level steps taken for the analysis.
 * How was the data managed throughout the collection, processing, analysis and interpretation steps?
 * Why did you choose the research methodologies you used?
