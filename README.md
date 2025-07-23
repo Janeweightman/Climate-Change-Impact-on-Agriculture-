@@ -96,6 +96,7 @@ With an H-statistic of 5.760 and p-value of 0.218 there is no significant impact
 
 #### Graphing H4: 
 ![h4 graphing](images/h4graphing.png)
+
 This is a very similar graph to the previous hypothesis, demonstrating that adaptation strategy does not have an economic impact. 
 
 ### H5: CO2 emissions are correlated with temperature
@@ -201,6 +202,7 @@ we added an explanation of the R-Squared value to page 2 of the dashboard for th
 * We had issues with converting year to date/time data type, we decided to keep it as a 64 bit integer, this caused no problems.
 * In previous projects we had issues with images not showing when put into a folder, this has been fixed during this project demonstrating growth. 
 * There have been a number of times when code did not run, this was fixed with a combination of rubberducking and debugging with Co-Pilot. 
+* Ploty was problematic and required a pip install of nb format 4.2.0, which is why 4.2.0 exists as a file in the Jupyter notebook folder.
 * A major issue was with the dataset itself, the data shows very little trends. When choosing the dataset we read the high usability score and assumed this wouldn't be an issue. In the future when choosing a Kaggle dataset we will make sure to look at the comments and previous projects to ensure you can tell a compelling story. 
 * We realised we are heavily reliant on generative AI for building machine learning models, in the future we plan to hone our skills in building ML pipelines with less assistance from AI.
  
