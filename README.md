@@ -30,6 +30,7 @@
 * We first tested the distribution of the variables using density distribution plots to determine the appropriate statistical tests to apply. 
 #### Distribution for Soil Health:
 ![soil health distribution](images/Soilhealthdensity.png)
+
 As you can see the distribution of soil health is not a normal distribution, and infact it has a distinctive uniform distribution, this means it is suitable for non parametric tests. 
 
 #### Distribution for Economic Impact: 
@@ -123,7 +124,7 @@ From the graph we can see that there might be some link between the two variable
 
 
 ## Project Plan
-To help plan we used a github project planning board which can be found [here](https://github.com/users/Janeweightman/projects/5).
+To help plan we used a github project planning board which can be found [here](https://github.com/users/Janeweightman/projects/5). The project board gave a structured approach to planning that allowed us to identify the steps and the priority that we should give them. To ideate hypotheses we used a mixture of EDA, literature review and bouncing off ideas with Co-pilot. 
 * Outline the high-level steps taken for the analysis.
 * How was the data managed throughout the collection, processing, analysis and interpretation steps?
 * Why did you choose the research methodologies you used?
@@ -132,10 +133,13 @@ To help plan we used a github project planning board which can be found [here](h
 * List your business requirements and a rationale to map them to the Data Visualisations
 
 ## Analysis techniques used
-* List the data analysis methods used and explain limitations or alternative approaches.
-* How did you structure the data analysis techniques. Justify your response.
-* Did the data limit you, and did you use an alternative approach to meet these challenges?
-* How did you use generative AI tools to help with ideation, design thinking and code optimisation?
+* Data cleaning in pandas using a Jupyter Notebook gave a structured modular approach that allows both data practioner and reader to follow each step.
+* EDA visualisations in Python also allows a modular easy to follow approach to data exploration and the range of visualisation libraries available makes for aesthetically pleasing visualisations. One issue with this however is that Plotly visualisations are not viewable on github repositories, which means some level of technical competancy is required from the reader to fork the repo. An alternative sollution could be to do visualisations in R using ggplot2, this is a method we would love to explore in future projects. 
+* Dashboard visualisations were made in Tablaeu Public, this for us was the best way to do it as it allows for a pre built story format and aesthetically pleasing visualisations. Another pro of Tablaeu over another software such as PowerBI is that it is incredibly easy to share your Dashboard using just a link. 
+* Generative AI specifically Co-pilot was used for hypothesis ideation, code debugging, code generation and storytelling. 
+* Scikit-Learn was used for machine learning as it's relatively easy to use library for machine learning tasks. 
+* Sci-py was used for statistical tests as it allows for a wide range of both parametric and non parametric tests. 
+
 
 ## Ethical considerations
 No private data is in this dataset, however there are still ethical considerations. 
