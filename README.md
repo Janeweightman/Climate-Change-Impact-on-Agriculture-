@@ -194,12 +194,6 @@ we added an explanation of the R-Squared value to page 2 of the dashboard for th
 
 ![Textbox R-Squared](images/textboxrsquared.png)
 
-
-## Unfixed Bugs
-* Please mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a significant variable to consider, paucity of time and difficulty understanding implementation are not valid reasons to leave bugs unfixed.
-* Did you recognise gaps in your knowledge, and how did you address them?
-* If applicable, include evidence of feedback received (from peers or instructors) and how it improved your approach or understanding.
-
 ## Development Roadmap
 * We had issues with converting year to date/time data type, we decided to keep it as a 64 bit integer, this caused no problems.
 * In previous projects we had issues with images not showing when put into a folder, this has been fixed during this project demonstrating growth. 
