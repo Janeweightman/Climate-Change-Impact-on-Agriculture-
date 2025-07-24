@@ -15,12 +15,12 @@
 
 
 ## Dataset Content
-* The dataset was found on Kaggle and be found [here](https://www.kaggle.com/datasets/waqi786/climate-change-impact-on-agriculture). The dataset contains 10,000 rows and 15 columns. The dataset includes allows for a wide scope of inquiry, including variables on crop yield, CO2 emissions, extreme weather events and more. 
+* The dataset was found on Kaggle and be found [here](https://www.kaggle.com/datasets/waqi786/climate-change-impact-on-agriculture). The dataset contains 10,000 rows and 15 columns. The dataset allows for a wide scope of inquiry, including variables on crop yield, CO2 emissions, extreme weather events and more. 
 
 
 ## Business Requirements
-* The business goal of this project is to provide information to farmers, governments and policy makers on how they can best adapt to climate change 
-* This is a very important problem to address as according to Christine Li et al in [Nature](https://www.nature.com/articles/s41598-025-87047-y) countries in sub-Saharan Africa, North America, South Asia and Oceania could be at risk of failing to meet national calorie demands by the end of the century. 
+* The business goal of this project is to provide information to farmers, governments and policy makers on how they can best adapt to climate change.
+* This is a very important problem to address as according to Christine Li et al in [Nature](https://www.nature.com/articles/s41598-025-87047-y), countries in sub-Saharan Africa, North America, South Asia and Oceania could be at risk of failing to meet national calorie demands by the end of the century. 
 * We seek to identify trends in the data that can help farmers feed the planet and maximise their profit in a sustainable way. 
 
 
@@ -31,7 +31,7 @@
 #### Distribution for Soil Health:
 ![soil health density](images/densityofsoilhealth.png)
 
-As you can see the distribution of soil health is not a normal distribution, and infact it has a distinctive uniform distribution, this means it is suitable for non parametric tests. 
+As you can see the distribution of soil health is not normally distributed, and infact it has a distinctive uniform distribution, this means it is suitable for non parametric tests. 
 
 #### Distribution for Economic Impact: 
 ![Economic Impact Distribution](image.png)
@@ -40,10 +40,11 @@ As you can see the distribution is skewed towards lower values meaning it is als
 #### Spearman Rank Correlation
 ![H1 Spearman Rank](images/h1spearman.png)
 
-We conducted a Spearman Rank Correlation test, the results were decisive with correlation coefficient of -0.009 there is no monotonic relationship and with a P-Value of 0.410 the results were not statistically significant. Thus we have to reject our alternative hypothesis and accept the null hypothesis that soil health does not drive economic impact.
+We conducted a Spearman Rank Correlation test, the results were decisive with a correlation coefficient of -0.009 there is no monotonic relationship, and with a P-Value of 0.410 the results were not statistically significant. We thus have to reject our alternative hypothesis and accept the null hypothesis that soil health does not drive economic impact.
 
 #### Graphing H1: 
 ![h1 graph](images/page1ofdashboard.png)
+
 As you can see there is no correlation, however if you remember the distribution graphs from perviously you can see that pattern playing out in the above figure. Notice how the triangles become less dense on the Y axis but remain dense on the X axis, this is because soil health is a uniform distribution and economic impact is skewed towards lower values.
 ### H2: Crop Yields Boost Economic Growth
 * We predict that greater crop yields will result in an economic boom
@@ -74,7 +75,7 @@ We consulted with co-pilot to explain the results to help us tell a story with t
 ### H3: Different adaptation strategies have a more positive impact on crop yield
 * We pedict the adaptation strategy farmers choose have an impact on overall crop yield.
 #### Kruskal-Wallace H test
-Since adaptation stategy is a nominal variable Kuskall Wallace was chosen. 
+Since adaptation stategy is a nominal variable Kuskall-Wallace H test was chosen. 
 
 ![h3 kruskal](images/h3kruskal.png)
 
@@ -92,7 +93,7 @@ As you can see there is very little difference between adaptation strategies, ev
 #### Kruskal-Wallace H test:
 ![h4 kruskall](images/h4kruskal.png)
 
-With an H-statistic of 5.760 and p-value of 0.218 there is no significant impact of adaptation strategies on economy. We there have to accept the null hypothesis. 
+With an H-statistic of 5.760 and p-value of 0.218 there is no significant impact of adaptation strategies on economy. We therefore have to accept the null hypothesis. 
 
 #### Graphing H4: 
 ![h4 graphing](images/h4graphing.png)
@@ -110,7 +111,7 @@ The CO2 Emissions have a non normal uniform distribution, making it suitable for
 #### Distribution of Temperature 
 ![Temp density](images/tempdensity.png)
 
-Temperature is not normally distributed and has a uniform distribution, sugessting non parametric tests would be suitable. 
+Temperature is not normally distributed and has a uniform distribution, suggesting non parametric tests would be suitable. 
 
 #### Spearman Rank Correlation
 ![H5 Spearman](images/h5spearman.png)
@@ -131,6 +132,7 @@ To help plan we used a github project planning board which can be found [here](h
 ![project plan](images/projectplan.png)
 
 Within the tasks in the project plan we used tick boxes so we can tick off tasks as we complete them. 
+
  ![tickboxes](images/tickboxes.png)
 
 * To ideate hypotheses we used a mixture of EDA, literature review and bouncing off ideas with Co-pilot. 
@@ -141,7 +143,7 @@ Within the tasks in the project plan we used tick boxes so we can tick off tasks
 * 1: The first visualisation is a scatter plot looking at soil health and economic impact, this meets the business requirements as one of the main goals of the project is for famers to find out how to maximise their profit sustainably. 
 * 2: The second visulaisation is a scatterplot looking at economic impact of crop yield, this also tries demonstrate how to maximise profit. 
 * 3: The third and fourth visualisations are both bar charts that compare adapatation strategies against economic impact and crop yield. This allows farmers to make an informed business decision on what adaptation stategy to choose based on their economic return and crop yield. 
-* 4: The fifth visuaslisation is a line chart plotting CO2 and temperature across time.This meets the business requirements as farmers cand gain insight into the general trend of climate chang and how important it is to take action. 
+* 4: The fifth visuaslisation is a line chart plotting CO2 and temperature across time.This meets the business requirements as farmers cand gain insight into the general trend of climate change and how important it is to take action. 
 
 ## Analysis techniques used
 * Data cleaning in pandas using a Jupyter Notebook gave a structured modular approach that allows both data practioner and reader to follow each step.
@@ -176,11 +178,11 @@ We have added the option to filter by both country and crop type using tick boxe
 
 ### Dashboard page 3:
 ![Page 3 Dashboard](images/page3dashboard.png)
-**Page 3** seeks to answer 2 questions; the first one being whether different adaptation strategies effect crop yield and the second being whether different adaptation strategies have an economic impact. Both questions are answered with bar charts placed one on top of the other for easy comparison. The bar charts are sorted in ascending order and coloured according to adaption method, allowing the viewer to compare the differences between charts, for example the viewer can more easily see that 'Organic Farming' is better than 'Water Management' for crop yields in the first chart.  We have included options to filter by crop type and country on the right hand side, as well as a legend for the adaptation methods. 
+**Page 3** seeks to answer 2 questions; the first one being whether different adaptation strategies effect crop yield and the second being whether different adaptation strategies have an economic impact. Both questions are answered with bar charts placed one on top of the other for easy comparison. The bar charts are sorted in ascending order and coloured according to adaptation method, allowing the viewer to compare the differences between charts, for example the viewer can more easily see that 'Organic Farming' is better than 'Water Management' for crop yields in the first chart.  We have included options to filter by crop type and country on the right hand side, as well as a legend for the adaptation methods. 
 
 ### Dashboard page 4: 
 ![Page 4 Dashboard](images/page4dashboard.png)
-**Page 4** of the dashboard examines CO2 Emissions and temperature over time, it uses a dual axis line chat with corresponding trend lines. The lines are colour codes with a legend and the chart features filters for country and crop type. 
+**Page 4** of the dashboard examines CO2 Emissions and temperature over time, it uses a dual axis line chat with corresponding trend lines. The lines are colour coded with a legend and the chart features filters for country and crop type. 
 * **Please note that page 4 does feature a lot of white space beneath the diagram, this is an intentional trade off between aesthetics and functionality as that white space does become occupied if you change the filters.** 
 ![changing the filters on dashboard](images/changingfilters.png)
 ### How the dashboard communicates to technical and non-technical audiences.
@@ -202,7 +204,7 @@ This did not look aesthetically pleasing, so we took the calculations, removed t
 ![Median Text Box](images/mediantextbox.png)
 
 ### Adding explanation of R Squared to Dashboard page 2:
-we added an explanation of the R-Squared value to page 2 of the dashboard for the benefit of the non technical audience. 
+we added an explanation of the R-Squared value to page 2 of the dashboard for the benefit of the non-technical audience. 
 
 ![Textbox R-Squared](images/textboxrsquared.png)
 
