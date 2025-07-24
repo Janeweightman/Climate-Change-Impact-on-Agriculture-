@@ -43,7 +43,7 @@ As you can see the distribution is skewed towards lower values meaning it is als
 We conducted a Spearman Rank Correlation test, the results were decisive with correlation coefficient of -0.009 there is no monotonic relationship and with a P-Value of 0.410 the results were not statistically significant. Thus we have to reject our alternative hypothesis and accept the null hypothesis that soil health does not drive economic impact.
 
 #### Graphing H1: 
-![h1 graph](images/Page1dashboard.png)
+![h1 graph](images/page1ofdashboard.png)
 As you can see there is no correlation, however if you remember the distribution graphs from perviously you can see that pattern playing out in the above figure. Notice how the triangles become less dense on the Y axis but remain dense on the X axis, this is because soil health is a uniform distribution and economic impact is skewed towards lower values.
 ### H2: Crop Yields Boost Economic Growth
 * We predict that greater crop yields will result in an economic boom
