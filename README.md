@@ -239,7 +239,7 @@ we added an explanation of the R-Squared value to page 2 of the dashboard for th
 * [Microsoft Co-Pilot](https://copilot.microsoft.com/chats/qxDMq9YFBmUafioNYmFnR) was used to aid in code generation, debugging, ideation, story telling and nagivating Tableau. 
 * Tutorials from [Tableau Tim](https://www.youtube.com/channel/UC7HYxRWmaNlJux-X7rNLZyw) were used while learning Tableau
 * [Code Institute LMS](https://learn.codeinstitute.net/dashboard) modules on Pandas, Numpy, Statistics,python visualisations, Tableau and machine learning were used throughout the project including code re-worked for data cleaning and python visualisations.
-
+* Markdown formatting from [Markdown Guide](https://www.markdownguide.org/basic-syntax/).
 
 ### Media
 
